@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <header class="stepperBar">
+            <p class="stepCirclecompleted">1</p>
+            <p class="stepTextcompleted">Cabin</p>
+            <p class="stepLinecompleted"></p>
+            <p class="stepCircleactual">2</p>
+            <p class="stepTextactual">Meals</p>
+            <p class="stepLinenone"></p>
+            <p class="stepCirclenone">3</p>
+            <p class="stepTextnone">Upgrades</p>
+            <p class="stepLinenone"></p>
+            <p class="stepCirclenone">4</p>
+            <p class="stepTextnone">Payment</p>
+        </header>
+        <main>
+            <h1>Meal Preferences</h1>
+            <p>Your flight comes with breakfast, lunch and dinner. Please make sure your selections below. Changes to
+                your order can be made up to 48 hours before your flight.</p>
+            <form class="form" action="">
+                <p>
+                    <label for="breakfast">Breakfast</label><br>
+                    <select class="izq" name="brfst" id="breakfast">
+                        <option value="br">Sausage Egg Scramble Bowl</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="drink">Drink</label><br>
+                    <select class="der" name="drk" id="drink">
+                        <option value="dr">Coffee</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="launch">Launch</label><br>
+                    <select class="izq" name="lnch" id="launch">
+                        <option value="ln">Club sandwich Meal</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="drinkL">Drink</label><br>
+                    <select class="der" name="drkL" id="drinkL">
+                        <option value="drL">Cranberry Juice</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="dinner">Dinner</label><br>
+                    <select class="izq" name="dnr" id="dinner">
+                        <option value="dn">Wagyu Beef Sliders Meal</option>
+                    </select>
+                <p>
+                    <label for="drinkD">Drink</label><br>
+                    <select class="der" name="drkD" id="drinkD">
+                        <option value="drD">Red Wine</option>
+                    </select>
+                </p>
+                <p><input type="checkbox" name="chbox" id="check" checked>
+                    <label for="ckeck">I'd like dessert, too!</label>
+                </p>
+                <p>
+                    <button id="bk">Back</button>
+                    <button id="cn">Continue</button>
+                </p>
+
+            </form>
+
+        </main>
+    </section>
+</body>
+
+</html>
